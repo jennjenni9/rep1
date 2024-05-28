@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+</head>
+<body>
+    <center>
+        <form action="validar.php" 
+        method="get">
+        <table border="1">
+            <tr>
+                <th>Folio</th>
+                <th><input type="int" name="txtFolio" placeholder="Ingresa el Folio" required></th>
+            </tr>
+            <tr>
+                <th>Cajero</th>
+                <th><input type="text" name="txtCajero" placeholder="Ingresa el Cajero" required></th>
+            </tr>
+            <tr>
+                <th>Fecha del Ticket</th>
+                <th><input type="number" name="txtFechaT" placeholder="Ingresa la Fecha" required></th>
+            </tr>
+            <tr>
+                <th>Total</th>
+                <th><input type="number" name="txtTotal" step="0.1" placeholder="Ingresa el Total" required></th>
+            </tr>
+            <tr>
+                <th>Id Sucursal</th>
+                <th><input type="text" name="txtIdProducto" placeholder="Ingresa el ID de la Sucursal" required></th>
+            </tr>
+            <tr>
+                <th>RFC de la Empresa</th>
+                <th><input type="text" name="txtRFC" placeholder="Ingresa el RFC de la empresa" required></th>
+            </tr>
+                <th><input type="reset" value="Limpiar"></th>
+                <th><input type="submit" value="Aceptar"></th>
+
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>

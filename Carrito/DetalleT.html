@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+</head>
+<body>
+    <center>
+        <form action="validar.php" 
+        method="get">
+        <table border="1">
+            <tr>
+                <th>Cantidad</th>
+                <th><input type="int" name="txtCantidad" placeholder="Ingresa la Cantidad de Productos" required></th>
+            </tr>
+            <tr>
+                <th>Descripción</th>
+                <th><input type="text" name="txtDescrip" placeholder="Ingresa la Descripción" required></th>
+            </tr>
+            <tr>
+                <th>Precio Unitario</th>
+                <th><input type="number" name="txtPrecioUni" placeholder="Ingresa el Precio" required></th>
+            </tr>
+            <tr>
+                <th>Importe</th>
+                <th><input type="number" name="txtNombreProd" step="0.1" placeholder="Ingresa Importe" required></th>
+            </tr>
+            <tr>
+                <th>Id Producto</th>
+                <th><input type="number" name="txtIdProducto" step="0.1" placeholder="Ingresa el ID" required></th>
+            </tr>
+                <th><input type="reset" value="Limpiar"></th>
+                <th><input type="submit" value="Aceptar"></th>
+
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>

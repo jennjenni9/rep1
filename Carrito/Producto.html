@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+</head>
+<body>
+    <center>
+        <form action="validar.php" 
+        method="get">
+        <table border="1">
+            <tr>
+                <th>Id Producto</th>
+                <th><input type="text" name="txtIdProd" placeholder="Ingresa el Id del Producto" required></th>
+
+            </tr>
+            <tr>
+                <th>Nombre del Producto</th>
+                <th><input type="text" name="txtNombreProd" placeholder="Ingresa el Nombre del Producto" required></th>
+            </tr>
+            <tr>
+                <th>Descripción del Producto</th>
+                <th><input type="text" name="txtDescri" placeholder="Ingresa la Descripción del Producto" required></th>
+            </tr>
+            <tr>
+                <th>Sección</th>
+                <th><select name="cbSeccion" >
+                    <option value="">golosinas</option>
+                    <option value="">refrescos</option>
+                    <option value="">objetos</option>
+                    <option value="">medicamentos</option>
+                </th></select>
+            </tr>
+            <tr>
+                <th>Categoría</th>
+                <th><select name="cbCategoria" >
+                    <option value="">A</option>
+                    <option value="">B</option>
+                    <option value="">C</option>
+                    <option value="">D</option>
+                    <option value="">E</option>
+                    <option value="">F</option>
+                    
+                </th></select>
+                <tr>
+                    <th>Precio del Producto</th>
+                    <th><input type="number" name="txtNombreProd" placeholder="Ingresa el Precio" required></th>
+                </tr>
+            <tr>
+                <th><input type="reset" value="Limpiar"></th>
+                <th><input type="submit" value="Aceptar"></th>
+
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>
